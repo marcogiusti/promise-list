@@ -69,9 +69,13 @@ export function trap(error, ...errorTypes) {
 }
 
 
-export function execute(func) {
+export function execute(func, ...args) {
     try {
-        return Promise.resolve(func());
+        var result = func(...args);
+        if (result instanceof Promise) {
+            return result;
+        }
+        return Promise.resolve(result);
     }
     catch(e) {
         return Promise.reject(e);
