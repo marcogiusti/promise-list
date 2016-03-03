@@ -5,7 +5,7 @@
   "author": "Marco Giusti",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mg/promise-list.git"
+    "url": "https://github.com/mgiusti/promise-list"
   },
   "scripts": {
     "test": "ava"
