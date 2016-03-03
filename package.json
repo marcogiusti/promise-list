@@ -1,0 +1,19 @@
+{
+  "name": "promise-list",
+  "version": "0.1.0",
+  "license": "MIT",
+  "author": "Marco Giusti",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mg/promise-list.git"
+  },
+  "scripts": {
+    "test": "ava"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^0.12.0",
+    "babel-polyfill": "^6.6.1",
+    "babel-register": "^6.6.0"
+  }
+}
